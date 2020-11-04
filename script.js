@@ -1,3 +1,3 @@
-const largeNumber = 345;
+const c = require('fs');
 
-export default largeNumber;
+console.log(c);
