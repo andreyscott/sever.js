@@ -1,6 +1,6 @@
-import largeNumber from './script.js';
+const script = require('./script.js');
 
-const a = largeNumber;
+const a = script.test;
 const b = 69;
 
-console.log(a * b)
+console.log(a + b)
